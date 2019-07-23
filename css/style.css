@@ -24,6 +24,9 @@ body {
   padding: 0 10px;
   text-align: center;
 }
+.header__top--nav {
+  align-self: center;
+}
 .header__top {
   margin-top: 0;
   display: flex;
@@ -33,10 +36,10 @@ body {
 }
 
 .top--logo {
-  /* margin-left: -100px; */
   cursor: pointer;
 }
 .nav--list {
+  
   display: flex;
   flex-flow: row wrap;
   padding-left: 0;
@@ -48,7 +51,9 @@ body {
   position: relative;
   border: 2px solid transparent;
   padding: 10px;
+  padding-right: 60px;
 }
+
 
 .nav--item:hover {
   box-sizing: border-box;
